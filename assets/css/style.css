@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+:root {
+	--primary-clr-green: rgb(16, 79, 85);
+}
+
+body{
+	color: ghostwhite;
+	background: yellowgreen;
+}
+
+.primary-header {
+	padding: 1em;
+	text-align: center;
+	border-bottom: 2px solid white;
+	margin-bottom: 1em;
+}
+
+.primary-header .logo-container {
+	margin-bottom: 1em;
+}
+
+.primary-header div .logo {
+	color: white;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.primary-header div a {
+	color: black;
+	font-weight: 500;
+}
+
+.banner-section  {
+	background-image: url(../images/aquaman.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	padding-top: 3em;
+}
+
+.banner-section .container {
+	background-color: rgba(136, 251, 188,0.5);
+	width: 70%;
+	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+
+.banner-section h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: .5em;
+}
+
+.banner-section .container .content {
+	font-weight: 800;
+	text-align: center;
+}
+
+.banner-section button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: ghostwhite;
+    background-color: yellowgreen;
+    padding: .2em .5em;
+    margin-top: .5em;
+}
+
+h3 {
+	color: var(--primary-clr-green);
+}
+
